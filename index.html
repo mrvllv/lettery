@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>A Letter Across The Distance</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND PETALS -->
+  <div id="petalsLayer" class="petals-layer"></div>
+
+  <!-- PETAL BURST DARI AMPLOP -->
+  <div id="burstLayer" class="burst-layer"></div>
+
+  <!-- MUSIC -->
+  <audio id="bgMusic" loop>
+    <source src="music/sorai.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="musicButton" class="music-button" aria-label="Play music">
+    <span class="music-icon">♪</span>
+  </button>
+
+
+  <main>
+
+    <!-- ==================================
+         INTRO
+    =================================== -->
+
+    <header class="intro">
+
+      <p class="small-title">
+        A Letter Across The Distance
+      </p>
+
+      <h1>
+        A Letter for You
+      </h1>
+
+      <p class="description">
+        Some words deserve to travel a little farther.
+      </p>
+
+    </header>
+
+
+    <!-- ==================================
+         LDR LOCATION
+    =================================== -->
+
+    <section class="distance-card">
+
+      <div class="city city-left">
+
+        <span class="city-name">
+          Jakarta
+        </span>
+
+        <strong id="jakartaTime">
+          --:--
+        </strong>
+
+        <small>
+          WIB
+        </small>
+
+      </div>
+
+
+      <div class="route">
+
+        <span class="route-line"></span>
+
+        <span class="route-plane">
+          ✦
+        </span>
+
+        <p>
+          across the distance
+        </p>
+
+      </div>
+
+
+      <div class="city city-right">
+
+        <span class="city-name">
+          Bali
+        </span>
+
+        <strong id="baliTime">
+          --:--
+        </strong>
+
+        <small>
+          WITA
+        </small>
+
+      </div>
+
+    </section>
+
+
+    <p class="distance-quote">
+      “Two islands, two skies, one letter travelling between them.”
+    </p>
+
+
+    <!-- ==================================
+         BOUQUET
+    =================================== -->
+
+    <section class="bouquet-section">
+
+      <div class="bouquet">
+
+
+        <!-- WRAPPING BELAKANG -->
+
+        <div class="wrap wrap-1"></div>
+        <div class="wrap wrap-2"></div>
+        <div class="wrap wrap-3"></div>
+        <div class="wrap wrap-4"></div>
+        <div class="wrap wrap-5"></div>
+        <div class="wrap wrap-6"></div>
+
+
+        <!-- TANGKAI -->
+
+        <div class="stem-bundle">
+
+          <span class="stem stem-1"></span>
+          <span class="stem stem-2"></span>
+          <span class="stem stem-3"></span>
+          <span class="stem stem-4"></span>
+          <span class="stem stem-5"></span>
+          <span class="stem stem-6"></span>
+          <span class="stem stem-7"></span>
+          <span class="stem stem-8"></span>
+          <span class="stem stem-9"></span>
+          <span class="stem stem-10"></span>
+
+          <span class="stem-leaf sl-1"></span>
+          <span class="stem-leaf sl-2"></span>
+          <span class="stem-leaf sl-3"></span>
+          <span class="stem-leaf sl-4"></span>
+          <span class="stem-leaf sl-5"></span>
+          <span class="stem-leaf sl-6"></span>
+
+        </div>
+
+
+        <!-- EUCALYPTUS -->
+
+        <div class="eucalyptus e1">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="eucalyptus e2">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="eucalyptus e3">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="eucalyptus e4">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="eucalyptus e5">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="eucalyptus e6">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+
+
+        <!-- MAWAR -->
+
+        <div class="rose r1"></div>
+        <div class="rose r2"></div>
+        <div class="rose r3"></div>
+        <div class="rose r4"></div>
+        <div class="rose r5"></div>
+        <div class="rose r6"></div>
+        <div class="rose r7"></div>
+
+        <div class="rose r8"></div>
+        <div class="rose r9"></div>
+        <div class="rose r10"></div>
+        <div class="rose r11"></div>
+        <div class="rose r12"></div>
+        <div class="rose r13"></div>
+        <div class="rose r14"></div>
+
+        <div class="rose r15"></div>
+        <div class="rose r16"></div>
+        <div class="rose r17"></div>
+        <div class="rose r18"></div>
+        <div class="rose r19"></div>
+        <div class="rose r20"></div>
+        <div class="rose r21"></div>
+
+        <div class="rose r22"></div>
+        <div class="rose r23"></div>
+        <div class="rose r24"></div>
+        <div class="rose r25"></div>
+        <div class="rose r26"></div>
+        <div class="rose r27"></div>
+        <div class="rose r28"></div>
+
+
+        <!-- BABY BREATH -->
+
+        <div class="baby b1"></div>
+        <div class="baby b2"></div>
+        <div class="baby b3"></div>
+        <div class="baby b4"></div>
+        <div class="baby b5"></div>
+        <div class="baby b6"></div>
+
+
+        <!-- PEARL -->
+
+        <div class="pearl-string pearl-1"></div>
+        <div class="pearl-string pearl-2"></div>
+        <div class="pearl-string pearl-3"></div>
+
+
+        <!-- LILY 1 -->
+
+        <div class="lily l1">
+          <span class="lily-petal lp1"></span>
+          <span class="lily-petal lp2"></span>
+          <span class="lily-petal lp3"></span>
+          <span class="lily-petal lp4"></span>
+          <span class="lily-petal lp5"></span>
+          <span class="lily-petal lp6"></span>
+
+          <span class="stamen st1"></span>
+          <span class="stamen st2"></span>
+          <span class="stamen st3"></span>
+          <span class="stamen st4"></span>
+        </div>
+
+
+        <!-- LILY 2 -->
+
+        <div class="lily l2">
+          <span class="lily-petal lp1"></span>
+          <span class="lily-petal lp2"></span>
+          <span class="lily-petal lp3"></span>
+          <span class="lily-petal lp4"></span>
+          <span class="lily-petal lp5"></span>
+          <span class="lily-petal lp6"></span>
+
+          <span class="stamen st1"></span>
+          <span class="stamen st2"></span>
+          <span class="stamen st3"></span>
+          <span class="stamen st4"></span>
+        </div>
+
+
+        <!-- LILY 3 -->
+
+        <div class="lily l3">
+          <span class="lily-petal lp1"></span>
+          <span class="lily-petal lp2"></span>
+          <span class="lily-petal lp3"></span>
+          <span class="lily-petal lp4"></span>
+          <span class="lily-petal lp5"></span>
+          <span class="lily-petal lp6"></span>
+
+          <span class="stamen st1"></span>
+          <span class="stamen st2"></span>
+          <span class="stamen st3"></span>
+          <span class="stamen st4"></span>
+        </div>
+
+
+        <!-- LILY 4 -->
+
+        <div class="lily l4">
+          <span class="lily-petal lp1"></span>
+          <span class="lily-petal lp2"></span>
+          <span class="lily-petal lp3"></span>
+          <span class="lily-petal lp4"></span>
+          <span class="lily-petal lp5"></span>
+          <span class="lily-petal lp6"></span>
+
+          <span class="stamen st1"></span>
+          <span class="stamen st2"></span>
+          <span class="stamen st3"></span>
+        </div>
+
+
+        <!-- LILY 5 -->
+
+        <div class="lily l5">
+          <span class="lily-petal lp1"></span>
+          <span class="lily-petal lp2"></span>
+          <span class="lily-petal lp3"></span>
+          <span class="lily-petal lp4"></span>
+          <span class="lily-petal lp5"></span>
+          <span class="lily-petal lp6"></span>
+
+          <span class="stamen st1"></span>
+          <span class="stamen st2"></span>
+          <span class="stamen st3"></span>
+        </div>
+
+
+        <!-- LILY 6 -->
+
+        <div class="lily l6">
+          <span class="lily-petal lp1"></span>
+          <span class="lily-petal lp2"></span>
+          <span class="lily-petal lp3"></span>
+          <span class="lily-petal lp4"></span>
+          <span class="lily-petal lp5"></span>
+          <span class="lily-petal lp6"></span>
+
+          <span class="stamen st1"></span>
+          <span class="stamen st2"></span>
+          <span class="stamen st3"></span>
+        </div>
+
+
+        <!-- LILY 7 -->
+
+        <div class="lily l7">
+          <span class="lily-petal lp1"></span>
+          <span class="lily-petal lp2"></span>
+          <span class="lily-petal lp3"></span>
+          <span class="lily-petal lp4"></span>
+          <span class="lily-petal lp5"></span>
+          <span class="lily-petal lp6"></span>
+
+          <span class="stamen st1"></span>
+          <span class="stamen st2"></span>
+          <span class="stamen st3"></span>
+        </div>
+
+
+        <!-- WRAPPING DEPAN -->
+
+        <div class="front-wrap front-left"></div>
+        <div class="front-wrap front-center"></div>
+        <div class="front-wrap front-right"></div>
+
+        <div class="ribbon"></div>
+
+      </div>
+
+
+      <!-- ==================================
+           ENVELOPE
+      =================================== -->
+
+      <div class="envelope-area">
+
+       <button
+         type="button"
+          id="openLetter"
+          class="envelope"
+          aria-label="Open letter"
+>
+
+          <span class="envelope-back"></span>
+          <span class="envelope-paper"></span>
+
+          <span class="envelope-front-left"></span>
+          <span class="envelope-front-right"></span>
+          <span class="envelope-bottom"></span>
+
+          <span class="envelope-flap"></span>
+
+          <span id="waxSeal" class="wax">
+            ✦
+          </span>
+
+        </button>
+
+        <p id="openText" class="open-text">
+          break the seal
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================================
+         LETTER
+    =================================== -->
+
+    <section
+      id="letterSection"
+      class="letter-section"
+    >
+
+      <article class="letter">
+
+
+        <!-- DECORATION -->
+
+        <div class="letter-bouquet top-left">
+
+          <span class="mini-stem"></span>
+
+          <span class="mini-leaf ml1"></span>
+          <span class="mini-leaf ml2"></span>
+          <span class="mini-leaf ml3"></span>
+
+          <span class="mini-rose mr1"></span>
+          <span class="mini-rose mr2"></span>
+          <span class="mini-rose mr3"></span>
+
+          <span class="mini-lily">
+            <i></i><i></i><i></i>
+            <i></i><i></i><i></i>
+          </span>
+
+        </div>
+
+
+        <div class="letter-bouquet top-right">
+
+          <span class="mini-stem"></span>
+
+          <span class="mini-leaf ml1"></span>
+          <span class="mini-leaf ml2"></span>
+          <span class="mini-leaf ml3"></span>
+
+          <span class="mini-rose mr1"></span>
+          <span class="mini-rose mr2"></span>
+          <span class="mini-rose mr3"></span>
+
+          <span class="mini-lily">
+            <i></i><i></i><i></i>
+            <i></i><i></i><i></i>
+          </span>
+
+        </div>
+
+
+        <div class="letter-bouquet bottom-left">
+
+          <span class="mini-stem"></span>
+
+          <span class="mini-leaf ml1"></span>
+          <span class="mini-leaf ml2"></span>
+          <span class="mini-leaf ml3"></span>
+
+          <span class="mini-rose mr1"></span>
+          <span class="mini-rose mr2"></span>
+
+        </div>
+
+
+        <div class="letter-bouquet bottom-right">
+
+          <span class="mini-stem"></span>
+
+          <span class="mini-leaf ml1"></span>
+          <span class="mini-leaf ml2"></span>
+          <span class="mini-leaf ml3"></span>
+
+          <span class="mini-rose mr1"></span>
+          <span class="mini-rose mr2"></span>
+
+        </div>
+
+
+        <!-- LDR STAMP -->
+
+        <div class="letter-route">
+
+          <span>
+            Jakarta
+          </span>
+
+          <div class="tiny-route">
+            <b></b>
+            <i>✦</i>
+            <b></b>
+          </div>
+
+          <span>
+            Bali
+          </span>
+
+        </div>
+
+
+        <header class="letter-heading">
+
+          <small>
+            a letter across the distance
+          </small>
+
+          <h2>
+            My Dearest,
+          </h2>
+
+          <div class="ornament"></div>
+
+          <p class="letter-date">
+            from Jakarta to Bali
+          </p>
+
+        </header>
+
+
+        <div class="letter-body">
+
+          <!-- ==============================
+               GANTI ISI SURAT DI SINI
+          =============================== -->
+
+          <p>
+            For you, by
+          </p>
+
+          <p>
+            I don’t know what name the universe would give to what we have. Maybe friendship. 
+            Maybe something deeper. Maybe simply two souls who somehow found each other from different places.
+You are in Bali, and I am in Jakarta. 
+There is only one hour between our clocks, yet there are still cities, roads, seas, and distance between us.
+ And somehow, even with all of that, you still became someone familiar to me.
+          </p>
+
+          <p>
+            I don’t want to make promises that sound too big
+            . I only hope for something simple — that no matter how busy life becomes, no matter how much time passes, we never become strangers.
+I hope we can always come back to each other, even after quiet days, late replies, difficult weeks, or long silences.
+ I hope our friendship remains something safe, something gentle, something we never have to force.
+          </p>
+
+          <p>
+           Maybe soulmate does not always have to mean romance.
+            Maybe sometimes it means finding someone who feels strangely familiar, 
+            someone whose presence feels easy, someone you hope life never completely
+             takes away from you.
+          </p>
+
+          <p>
+            We have never met yet, and maybe that is what makes this story a little unusual. We only know each other through words, screens, time differences, and the little pieces of our lives that we choose to share.
+Still, I hope one day distance will no longer be something we talk about.
+Maybe one day, if God allows it, Jakarta and Bali will no longer be two places between us. Maybe there will be a day when I can finally look at you and say,
+          </p>
+
+          <p>
+            “So this is you, outside of the screen.”
+Until that day comes, I hope we keep choosing this friendship. I hope we keep talking, laughing, listening, and being part of each other’s lives in whatever way feels right.
+And if God has written a meeting for us somewhere in the future, I hope we reach that day without ever becoming strangers first.
+          </p>
+
+          <p>
+           Wherever life takes us, I hope we remain familiar souls.
+          </p>
+
+          <p class="signature">
+
+            Across the distance,
+
+            <span class="signature-name">
+              puding
+            </span>
+
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <p class="bottom-note">
+        Jakarta ✦ Bali — a little letter travelling between two skies
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
